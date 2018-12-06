@@ -7,7 +7,7 @@
 Library  OperatingSystem
 
 *** Variables ***
-${BOILERPLATE_EXEC}  python_boilerplate
+${BOILERPLATE_EXEC}  <%= projectName %>
 
 *** Keywords ***
 # TODO

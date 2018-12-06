@@ -88,6 +88,12 @@ module.exports = class extends Generator {
       this.destinationPath(path.join(this.destinationRoot(), "docs/conf.py"))
     );
     this.fs.copyTpl(
+      this.templatePath("docs/contributing.rst"),
+      this.destinationPath(
+        path.join(this.destinationRoot(), "docs/contributing.rst")
+      )
+    );
+    this.fs.copyTpl(
       this.templatePath("docs/history.rst"),
       this.destinationPath(
         path.join(this.destinationRoot(), "docs/history.rst")
@@ -187,7 +193,10 @@ module.exports = class extends Generator {
       this.templatePath("stests/common_resources.robot"),
       this.destinationPath(
         path.join(this.destinationRoot(), "stests/common_resources.robot")
-      )
+      ),
+      {
+        projectName: this.props.projectName
+      }
     );
     this.fs.copyTpl(
       this.templatePath("stests/default_suite.robot"),
@@ -286,6 +295,10 @@ module.exports = class extends Generator {
       {
         projectName: this.props.projectName
       }
+    );
+    this.fs.copyTpl(
+      this.templatePath("MANIFEST.in"),
+      this.destinationPath(path.join(this.destinationRoot(), "MANIFEST.in"))
     );
     this.fs.copyTpl(
       this.templatePath("README.rst"),
