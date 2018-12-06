@@ -30,7 +30,7 @@ MIT © [Franco Riberi](https://fgriberi.github.io/)
 
 [npm-image]: https://badge.fury.io/js/generator-toptive-python.svg
 [npm-url]: https://npmjs.org/package/generator-toptive-python
-[travis-image]: https://travis-ci.org/fgriberi/generator-toptive-python.svg?branch=master
-[travis-url]: https://travis-ci.org/fgriberi/generator-toptive-python
+[travis-image]: https://travis-ci.org/toptive/generator-toptive-python.svg?branch=master
+[travis-url]: https://travis-ci.org/toptive/generator-toptive-python
 [daviddm-image]: https://david-dm.org/fgriberi/generator-toptive-python.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/fgriberi/generator-toptive-python
