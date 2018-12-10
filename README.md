@@ -1,4 +1,4 @@
-# generator-toptive-python [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Pyup dependency][pyup-image]][pyup-url]
+# generator-toptive-python [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Pyup dependency][pyup-image]][pyup-url] [![Documentation][docs-image]][docs-url]
 > Toptive yeoman generator for python projects
 
 ## Installation
@@ -34,3 +34,5 @@ MIT © [Franco Riberi](https://fgriberi.github.io/)
 [travis-url]: https://travis-ci.org/toptive/generator-toptive-python
 [pyup-image]: https://pyup.io/repos/github/toptive/generator-toptive-python/shield.svg?t=1544125350091
 [pyup-url]: https://pyup.io/account/repos/github/toptive/generator-toptive-python/
+[docs-image]: https://readthedocs.org/projects/generator-toptive-python/badge/?version=latest
+[docs-url]: https://generator-toptive-python.readthedocs.io/en/latest/?badge=latest
