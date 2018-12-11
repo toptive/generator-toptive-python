@@ -38,13 +38,13 @@ module.exports = class extends Generator {
         type: "input",
         name: "projectAuthor",
         message: "Project Author",
-        default: "Franco Riberi"
+        default: "Yeoman Author"
       },
       {
         type: "input",
         name: "authorEmail",
         message: "Email Author",
-        default: "fgriberi@gmail.com"
+        default: "yeoman_author@gmail.com"
       }
     ];
 
