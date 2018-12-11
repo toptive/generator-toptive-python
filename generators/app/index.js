@@ -238,7 +238,7 @@ module.exports = class extends Generator {
 
     // Copy dot files
     this.fs.copyTpl(
-      this.templatePath(".bumpversion.cfg"),
+      this.templatePath("_bumpversion.cfg"),
       this.destinationPath(
         path.join(this.destinationRoot(), ".bumpversion.cfg")
       ),
@@ -248,23 +248,23 @@ module.exports = class extends Generator {
       }
     );
     this.fs.copyTpl(
-      this.templatePath(".dockerignore"),
+      this.templatePath("_dockerignore"),
       this.destinationPath(path.join(this.destinationRoot(), ".dockerignore"))
     );
     this.fs.copyTpl(
-      this.templatePath(".editorconfig"),
+      this.templatePath("_editorconfig"),
       this.destinationPath(path.join(this.destinationRoot(), ".editorconfig"))
     );
     this.fs.copyTpl(
-      this.templatePath(".gitignore"),
+      this.templatePath("_gitignore"),
       this.destinationPath(path.join(this.destinationRoot(), ".gitignore"))
     );
     this.fs.copyTpl(
-      this.templatePath(".pylintrc"),
+      this.templatePath("_pylintrc"),
       this.destinationPath(path.join(this.destinationRoot(), ".pylintrc"))
     );
     this.fs.copyTpl(
-      this.templatePath(".travis.yml"),
+      this.templatePath("_travis.yml"),
       this.destinationPath(path.join(this.destinationRoot(), ".travis.yml"))
     );
 
