@@ -1,6 +1,6 @@
 {
   "name": "generator-toptive-python",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Toptive yeoman generator for python projects",
   "homepage": "https://github.com/toptive/generator-toptive-python#readme",
   "author": "Franco Riberi <fgriberi@gmail.com>",
