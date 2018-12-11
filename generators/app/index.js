@@ -58,18 +58,24 @@ module.exports = class extends Generator {
 
     // Copy .github
     this.fs.copyTpl(
-      this.templatePath(".github/ISSUE_TEMPLATE.md"),
+      this.templatePath(".github/ISSUE_TEMPLATE/bug_report.md"),
       this.destinationPath(
-        path.join(this.destinationRoot(), ".github/ISSUE_TEMPLATE.md")
+        path.join(this.destinationRoot(), ".github/ISSUE_TEMPLATE/bug_report.md")
       ),
       {
         projectName: this.props.projectName
       }
     );
     this.fs.copyTpl(
-      this.templatePath(".github/pull_request_template.md"),
+      this.templatePath(".github/ISSUE_TEMPLATE/feature_request.md"),
       this.destinationPath(
-        path.join(this.destinationRoot(), ".github/pull_request_template.md")
+        path.join(this.destinationRoot(), ".github/ISSUE_TEMPLATE/feature_request.md")
+      )
+    );
+    this.fs.copyTpl(
+      this.templatePath(".github/PULL_REQUEST_TEMPLATE.md"),
+      this.destinationPath(
+        path.join(this.destinationRoot(), ".github/PULL_REQUEST_TEMPLATE.md")
       ),
       {
         projectName: this.props.projectName
@@ -328,7 +334,10 @@ module.exports = class extends Generator {
     );
     this.fs.copyTpl(
       this.templatePath("tox.ini"),
-      this.destinationPath(path.join(this.destinationRoot(), "tox.ini"))
+      this.destinationPath(path.join(this.destinationRoot(), "tox.ini")),
+      {
+        projectName: this.props.projectName
+      }
     );
   }
 };
