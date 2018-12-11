@@ -1,4 +1,9 @@
+branches:
+  only:
+    - master
+
 language: node_js
+
 node_js:
   - v11
   - v10
