@@ -1,13 +1,9 @@
-=======
-Credits
-=======
+# Authors
 
-Development Lead
-----------------
+## Core Contributor
 
 * Franco Riberi <fgriberi@gmail.com>
 
-Contributors
-------------
+## Contributors
 
-None yet. Why not be the first?
+None yet. [Why not be the first?](CONTRIBUTING.md)
