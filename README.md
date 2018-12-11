@@ -1,4 +1,4 @@
-# generator-toptive-python [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Pyup dependency][pyup-image]][pyup-url] [![Documentation][docs-image]][docs-url] [![Github - Last tag][tag-image]][tag-url]
+# generator-toptive-python [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Pyup dependency][pyup-image]][pyup-url] [![Documentation][docs-image]][docs-url]
 > Toptive yeoman generator for python projects
 
 ## Getting Started
@@ -58,5 +58,3 @@ This package was generated using [Yeoman](https://yeoman.io/learning/) project a
 [pyup-url]: https://pyup.io/account/repos/github/toptive/generator-toptive-python/
 [docs-image]: https://readthedocs.org/projects/generator-toptive-python/badge/?version=latest
 [docs-url]: https://generator-toptive-python.readthedocs.io/en/latest/?badge=latest
-[tag-image]: https://img.shields.io/github/tag/expressjs/express.svg
-[tag-url]: https://github.com/toptive/generator-toptive-python/tags
