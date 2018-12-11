@@ -14,4 +14,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add initial boilerplate from Cookiecutter
 - Add initial yeoman generator code base
 
-[1.0.0] TBD
+[1.0.0]: https://github.com/toptive/generator-toptive-python/releases/tag/release-v1.0.0
