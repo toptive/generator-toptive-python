@@ -91,7 +91,12 @@ module.exports = class extends Generator {
     );
     this.fs.copyTpl(
       this.templatePath("docs/conf.py"),
-      this.destinationPath(path.join(this.destinationRoot(), "docs/conf.py"))
+      this.destinationPath(path.join(this.destinationRoot(), "docs/conf.py")),
+      {
+        projectName: this.props.projectName,
+        projectAuthor: this.props.projectAuthor,
+        projectVersion: this.props.projectVersion
+      }
     );
     this.fs.copyTpl(
       this.templatePath("docs/contributing.rst"),
