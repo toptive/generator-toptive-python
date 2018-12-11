@@ -12,8 +12,9 @@ describe("generator-toptive-python:app by default", () => {
 
   it("github files are created", () => {
     assert.file([
-      ".github/ISSUE_TEMPLATE.md",
-      ".github/pull_request_template.md"
+      ".github/ISSUE_TEMPLATE/bug_report.md",
+      ".github/ISSUE_TEMPLATE/feature_request.md",
+      ".github/PULL_REQUEST_TEMPLATE.md"
     ]);
   });
 

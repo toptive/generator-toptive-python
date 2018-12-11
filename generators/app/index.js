@@ -60,7 +60,10 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
       this.templatePath(".github/ISSUE_TEMPLATE/bug_report.md"),
       this.destinationPath(
-        path.join(this.destinationRoot(), ".github/ISSUE_TEMPLATE/bug_report.md")
+        path.join(
+          this.destinationRoot(),
+          ".github/ISSUE_TEMPLATE/bug_report.md"
+        )
       ),
       {
         projectName: this.props.projectName
@@ -69,7 +72,10 @@ module.exports = class extends Generator {
     this.fs.copyTpl(
       this.templatePath(".github/ISSUE_TEMPLATE/feature_request.md"),
       this.destinationPath(
-        path.join(this.destinationRoot(), ".github/ISSUE_TEMPLATE/feature_request.md")
+        path.join(
+          this.destinationRoot(),
+          ".github/ISSUE_TEMPLATE/feature_request.md"
+        )
       )
     );
     this.fs.copyTpl(
