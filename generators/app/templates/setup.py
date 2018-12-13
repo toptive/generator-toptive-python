@@ -6,6 +6,7 @@
 __author__ = 'fgriberi'
 
 import io
+import uuid
 import pip
 
 try: # for pip >= 10
@@ -33,7 +34,7 @@ def read(*filenames, **kwargs):
 
 def get_parsed_req(req_file):
     """Gets requirement from file"""
-    parsed_req = parse_requirements(req_file, session=False)
+    parsed_req = parse_requirements(req_file, session=uuid.uuid1())
     return (str(ir.req) for ir in parsed_req)
 
 
